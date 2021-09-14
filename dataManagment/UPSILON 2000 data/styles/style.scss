@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #9B97B2;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    main {
+        width: 33%;
+        height: 50%;
+        background-color: #5b5966;
+        border-radius: 10%;
+        h3 {
+            text-align: center;
+            padding: 10px;
+        }
+        hr {
+            border-color: black;
+        }
+    }
+}
+.dateTable {
+    tbody {
+        width: 500px;
+        margin: 20px;
+    }
+    th {
+        width: calc(50% - 20px);
+        padding: 10px;
+        border: 1px solid black;
+    }
+    td {
+        width: calc(50% - 20px);
+        padding: 10px;
+        border: 1px solid black;
+    }
+}

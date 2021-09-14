@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #9B97B2;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+body main {
+  width: 33%;
+  height: 50%;
+  background-color: #5b5966;
+  border-radius: 10%;
+}
+
+body main h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+body main hr {
+  border-color: black;
+}
+
+.dateTable tbody {
+  width: 500px;
+  margin: 20px;
+}
+
+.dateTable th {
+  width: calc(50% - 20px);
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.dateTable td {
+  width: calc(50% - 20px);
+  padding: 10px;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=style.css.map */
